@@ -27,7 +27,7 @@ const server = http.createServer(app);
 // Socket setup
 const io = new Server(server, {
   cors: {
-    origin: "*",
+    origin: "https://your-frontend-url.vercel.app",
     methods: ["GET", "POST"],
   },
 });
