@@ -1,0 +1,33 @@
+# ======================
+# dependencies
+# ======================
+node_modules
+client/node_modules
+server/node_modules
+
+# ======================
+# environment files
+# ======================
+.env
+client/.env
+server/.env
+
+# ======================
+# builds
+# ======================
+.next
+dist
+build
+
+# ======================
+# logs
+# ======================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ======================
+# OS files
+# ======================
+.DS_Store
+Thumbs.db
